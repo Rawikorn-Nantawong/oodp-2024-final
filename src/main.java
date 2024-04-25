@@ -147,6 +147,7 @@ public class main {
                     System.out.println(" Total price :  $ " + guest.getBetweenDay() * 6000);
                 }
             }
+            //user type for room type
             if (room == 1) {
                 System.out.println(" Room type : Normal Room");
             }
@@ -179,7 +180,7 @@ public class main {
         } while (a != 2);
 
         System.out.println(" We're glad to be able to help you today.");
-
+        //User rate satisfaction
         ArrayList<String> rating = new ArrayList<String>();
         rating.add("{1) Poor");
         rating.add("(2) Could be better");
@@ -219,6 +220,7 @@ public class main {
         int[] phNum = new int[2];
         String YN;
 
+        //Confirm reservation 
         System.out.println("--------------------------------------");
         System.out.print(" Do you want to confirm\n YES or NO:\n:");
         YN = String.valueOf(new Scanner(System.in).nextLine());

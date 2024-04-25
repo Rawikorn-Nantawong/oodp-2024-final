@@ -24,7 +24,7 @@ public class trycatcherror {
                 again = false;
 
             }
-
+            //catch if user didn't type number
             catch (NumberFormatException e)
             {
                 System.out.println("It's not number");
